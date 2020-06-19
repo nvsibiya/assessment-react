@@ -25,7 +25,7 @@ class Albums extends Component {
      return(
          <Container fluid>
              <input type="text" value={this.state.search} onChange ={(e) => this.setState({search:e.currentTarget.value})} />
-             <button variant="outline-success" onClick={this.addAlbums}>Search</button>
+             <button  onClick={this.addAlbums}>Search</button>
          </Container>
      )
  }   
